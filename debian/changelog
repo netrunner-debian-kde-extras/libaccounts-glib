@@ -1,6 +1,7 @@
 libaccounts-glib (1.18+20150112-1~) UNRELEASED; urgency=medium
 
   * Prepare Debian release. (1.18+20150112)
+  * Update copyright information.
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 23 Apr 2015 19:36:49 +0200
 
