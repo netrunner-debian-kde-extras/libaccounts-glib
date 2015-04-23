@@ -1,2 +1,2 @@
-usr/lib/*/girepository-1.0
-usr/lib/python*/dist-packages/gi/overrides/*.py
+usr/lib/*/girepository-1.0/Accounts-1.0.typelib
+usr/lib/python*/dist-packages/gi/overrides/Accounts.py

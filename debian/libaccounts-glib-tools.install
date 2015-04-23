@@ -1,2 +1,4 @@
-usr/bin
-usr/share/man
+usr/bin/ag-backup
+usr/bin/ag-tool
+usr/share/man/man1/ag-backup.1
+usr/share/man/man1/ag-tool.1
