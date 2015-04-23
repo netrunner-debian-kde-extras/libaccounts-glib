@@ -1,3 +1,9 @@
+libaccounts-glib (1.18+20150112-1~) UNRELEASED; urgency=medium
+
+  * Prepare Debian release. (1.18+20150112)
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 23 Apr 2015 19:36:49 +0200
+
 libaccounts-glib (1.18+15.04.20150116-0ubuntu1) vivid; urgency=low
 
   [ Ubuntu daily release ]
