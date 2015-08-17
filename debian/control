@@ -49,6 +49,18 @@ Description: Accounts database access - development files
  This package contains files the development files of the accounts database
  access GLib-based API.
 
+Package: libaccounts-glib-dbg
+Section: debug
+Architecture: any
+Depends: libaccounts-glib0 (= ${binary:Version}),
+         ${misc:Depends},
+Description: Accounts database access - debug files
+ Accounts and SSO (Single Sign-On) framework for Linux and POSIX based
+ platforms.
+ .
+ This package contains files the debugging symbols of the accounts database
+ access GLib-based API.
+
 Package: libaccounts-glib0
 Architecture: any
 Multi-Arch: same

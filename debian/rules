@@ -32,5 +32,8 @@ override_dh_auto_test:
 	CK_TIMEOUT_MULTIPLIER=10 CK_DEFAULT_TIMEOUT=0 VERBOSE=1 \
 	  xvfb-run -a dbus-launch --exit-with-session dh_auto_test
 
+override_dh_strip:
+	$(overridden_command) --dbg-package=libaccounts-glib-dbg
+
 %:
 	dh $@ --with autoreconf,python2
