@@ -8,6 +8,7 @@ libaccounts-glib (1.18+20150112-1~) UNRELEASED; urgency=medium
   [ Diane Trout ]
   * Add dh-python to build depends
   * Add -dbg package
+  * Snapshot based on upstream commit 0bacbb4ca28ffceb7aabd656d0b3f3f85ab1edcf
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 23 Apr 2015 19:36:49 +0200
 
