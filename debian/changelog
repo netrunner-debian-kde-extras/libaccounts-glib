@@ -10,6 +10,8 @@ libaccounts-glib (1.18+20150112-1~) UNRELEASED; urgency=medium
   * Add -dbg package
   * Snapshot based on upstream commit 0bacbb4ca28ffceb7aabd656d0b3f3f85ab1edcf
   * Add myself to uploaders after checking with Maxy
+  * Remove XS-Testsuite: autopkgtest from control. See:
+    https://lintian.debian.org/tags/xs-testsuite-header-in-debian-control.html
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 23 Apr 2015 19:36:49 +0200
 

@@ -26,7 +26,6 @@ Build-Depends: automake (>= 1:1.13),
                xauth,
                xvfb
 Standards-Version: 3.9.6
-XS-Testsuite: autopkgtest
 Homepage: https://gitlab.com/accounts-sso/libaccounts-glib
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-extras/libaccounts-glib.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-extras/libaccounts-glib.git
