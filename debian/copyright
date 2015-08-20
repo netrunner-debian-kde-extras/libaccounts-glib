@@ -20,10 +20,6 @@ License: Permissive
  permission to copy and/or distribute it, with or without
  modifications, as long as this notice is preserved.
 
-Files: COPYING
-Copyright: 1991-1999, Free Software Foundation, Inc
-License: LGPL-2.1+
-
 License: GPL-3
  This program is free software: you can redistribute it and/or modify it
  under the terms of the GNU General Public License version 3, as published
