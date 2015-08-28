@@ -1,4 +1,4 @@
-libaccounts-glib (1.18+20150112-1~) UNRELEASED; urgency=medium
+libaccounts-glib (1.18+20150112-1) unstable; urgency=medium
 
   [ Maximiliano Curia ]
   * Prepare Debian release. (1.18+20150112)
@@ -14,7 +14,7 @@ libaccounts-glib (1.18+20150112-1~) UNRELEASED; urgency=medium
     https://lintian.debian.org/tags/xs-testsuite-header-in-debian-control.html
   * Replace $(overridden_command) with dh_strip
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 23 Apr 2015 19:36:49 +0200
+ -- Diane Trout <diane@debian.org>  Wed, 19 Aug 2015 23:24:06 -0700
 
 libaccounts-glib (1.18+15.04.20150116-0ubuntu1) vivid; urgency=low
 
