@@ -1,3 +1,9 @@
+libaccounts-glib (1.18+20150112-2) UNRELEASED; urgency=medium
+
+  * Add disable-deprecation-errors.patch to work around glib API change
+
+ -- Diane Trout <diane@debian.org>  Thu, 03 Dec 2015 00:32:44 +0000
+
 libaccounts-glib (1.18+20150112-1) unstable; urgency=medium
 
   [ Maximiliano Curia ]
