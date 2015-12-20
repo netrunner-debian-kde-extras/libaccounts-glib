@@ -1,1 +1,2 @@
 disable-deprecation-errors.patch
+fix-endianness-issues.patch
