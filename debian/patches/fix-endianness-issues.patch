@@ -1,21 +1,13 @@
-From a6c28fea9fa791a85b1809f00cc43d16b87f2b77 Mon Sep 17 00:00:00 2001
-From: Alberto Mardegan <alberto.mardegan@canonical.com>
+Author: Alberto Mardegan <alberto.mardegan@canonical.com>
 Date: Fri, 18 Dec 2015 18:16:14 +0300
+commit: a6c28fea9fa791a85b1809f00cc43d16b87f2b77
 Subject: [PATCH] Fix endianness issues
-
-We cannot safely load a 32 bit integer into a struct field which expects
-a 64 bit value: we must load it into a 32 bit integer first, and then
-assign the value to the structure field.
-
-This bug was causing test failures on s390x:
-https://gitlab.com/accounts-sso/libaccounts-glib/issues/2
----
- libaccounts-glib/ag-account.c | 6 ++++--
- libaccounts-glib/ag-manager.c | 8 +++++---
- 2 files changed, 9 insertions(+), 5 deletions(-)
-
-diff --git a/libaccounts-glib/ag-account.c b/libaccounts-glib/ag-account.c
-index 165ae25..478ed9e 100644
+ We cannot safely load a 32 bit integer into a struct field which expects
+ a 64 bit value: we must load it into a 32 bit integer first, and then
+ assign the value to the structure field.
+ .
+ This bug was causing test failures on s390x:
+Bug: https://gitlab.com/accounts-sso/libaccounts-glib/issues/2
 --- a/libaccounts-glib/ag-account.c
 +++ b/libaccounts-glib/ag-account.c
 @@ -291,8 +291,10 @@ _ag_account_build_dbus_changes (AgAccount *account, AgAccountChanges *changes,
